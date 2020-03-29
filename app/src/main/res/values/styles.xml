@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:navigationBarColor" tools:targetApi="21">@color/colorPrimary</item>
+    </style>
+
+    <style name="AsteroidText" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/default_text_color</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="AsteroidTextTitle" parent="AsteroidText">
+        <item name="android:textSize">@dimen/font_size_header</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>
